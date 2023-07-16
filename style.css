@@ -1,0 +1,12 @@
+.main{
+    width: 1000px;
+    height: 400px;
+    background-color: aqua;
+    font-size: 120px;
+
+}
+.main:hover{
+    color: green ;
+    height: min-content;
+    background-color: brown ;
+}

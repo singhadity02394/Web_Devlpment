@@ -1,0 +1,44 @@
+.container{
+    width:1000px;
+    height: 215px;
+    background-color: yellow;
+    border: 2px solid red;
+    
+}
+.box{
+    height: 212px;
+    width:212px;
+    border:3px solid palevioletred;
+    background-color: beige;
+
+    animation-name: sunny;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+} 
+@keyframes sunny{
+    0%{
+        width:35%;
+        background-color:orangered;
+    }
+    30%{
+        width:70%;
+        background-color:white;
+    }
+    100%{
+        width:100px;
+        background-color:green;
+    }
+}
+/*@keyframes sunny{
+    from{
+        width:212px;
+
+    }
+    to{
+        width:800px;
+    }
+}*/
